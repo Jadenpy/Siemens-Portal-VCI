@@ -1,6 +1,14 @@
 ﻿FUNCTION "FC_1" : Void
 { S7_Optimized_Access := 'TRUE' }
 VERSION : 0.1
+   VAR_INPUT 
+      in_1 : Bool;
+   END_VAR
+
+   VAR_OUTPUT 
+      out_1 : Bool;
+   END_VAR
+
 
 BEGIN
 END_FUNCTION
